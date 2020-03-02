@@ -1,3 +1,4 @@
+
 document.getElementById('calc-form').addEventListener('submit', solveProblem);
 	var subBtn = document.getElementById('submit');
 	subBtn.addEventListener('click', solveProblem);
@@ -20,6 +21,7 @@ document.getElementById('calc-form').addEventListener('submit', solveProblem);
 				
 				subBtn.innerHTML = "ADD NUMBERS";
 				subBtn.disabled="";
+				speak('Sorry, the first Number is required.');
 
 
 		} else if(num2 === "") {
@@ -29,12 +31,15 @@ document.getElementById('calc-form').addEventListener('submit', solveProblem);
 				subBtn.innerHTML = "ADD NUMBERS";
 				subBtn.disabled="";
 
+				speak('Oops!, the second Number is required.');
+
 		}else if(num3 === ""){
 
 				M.toast({html: "<b><i class='fa fa-times-circle'></i> Third Number is required!</b>"});
 				
 				subBtn.innerHTML = "ADD NUMBERS";
 				subBtn.disabled="";
+				speak('Sorry, the third Number is also required.');
 
 		}else{
 
@@ -48,6 +53,7 @@ document.getElementById('calc-form').addEventListener('submit', solveProblem);
 
 			subBtn.innerHTML = "ADD NUMBERS";
 			subBtn.disabled="";
+			speak('The answer is '+result+".");
 		}
 
 
