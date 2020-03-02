@@ -1,7 +1,7 @@
 {
     "name": "MjB Simple Add App",
     "short_name": "MjB ADD",
-    "start_url":"../index.html",
+    "start_url":"./index.html",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
