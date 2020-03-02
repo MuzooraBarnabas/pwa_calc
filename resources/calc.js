@@ -1,5 +1,6 @@
 
-document.getElementById('calc-form').addEventListener('submit', solveProblem);
+    var form1 = document.getElementById('calc-form')
+    form1.addEventListener('submit', solveProblem);
 	var subBtn = document.getElementById('submit');
 	subBtn.addEventListener('click', solveProblem);
 
@@ -46,10 +47,11 @@ document.getElementById('calc-form').addEventListener('submit', solveProblem);
 			var result = parseInt(num1)+parseInt(num2)+parseInt(num3);
 
 			msg.className = "alert alert-info text-center";
+			M.toast({html: 'Answer calculated successfully!'});
+			form1.reset();
 
 			msg.innerHTML = "<i class='fa fa-check-circle'></i> Answer = "+result;
 
-			M.toast({html: 'Answer calculated successfully!'});
 
 			subBtn.innerHTML = "ADD NUMBERS";
 			subBtn.disabled="";
