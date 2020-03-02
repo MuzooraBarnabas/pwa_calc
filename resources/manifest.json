@@ -1,6 +1,6 @@
 {
     "name": "MjB Simple Add App",
-    "short_name": "Add App",
+    "short_name": "MjB ADD",
     "start_url":"index.html",
     "icons": [
         {
