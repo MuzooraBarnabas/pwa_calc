@@ -5,7 +5,7 @@
 
 I basically wanted to show you that anything is possible with the web! You can do absolutely anything!
 
-<img src="images/barna.png" alt="MUZOORA ABARNABAS">
+<img src="https://avatars1.githubusercontent.com/u/47476991?s=120&v=4" alt="MUZOORA ABARNABAS">
 
 # READ THROUGH MY CV <a href="https://muzoorabarnabas.github.io/cv/">HERE</a>.
 
