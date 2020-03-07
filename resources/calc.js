@@ -48,7 +48,7 @@
 
 			msg.className = "alert alert-info text-center";
 			M.toast({html: 'Answer calculated successfully!'});
-			
+
 			form1.reset();
 
 			msg.innerHTML = "<i class='fa fa-check-circle'></i> Answer = "+result;
